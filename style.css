@@ -1,0 +1,67 @@
+#title {
+display: flex;
+justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  font-size: 60px;
+}
+
+button[type='button'] {
+  color: black;
+  border: solid black 1px;
+  width: 80px;
+  height: 80px;
+}
+
+#inputtext {
+  background-color: white;
+  border: solid black 1px;
+  width: 255px;
+  height: 80px;
+  text-align: center;
+  font-size: 70px;
+}
+
+#calculator {
+  width: 350px;
+  height: 300px;
+  text-align: center;
+}
+
+.operand {
+  font-size: 50px;
+  background-color: rgb(153, 204, 255);
+  border: solid black 1px;
+}
+
+.operator {
+  font-size: 50px;
+  background-color: #ffcc99;
+  border: solid black 1px;
+}
+
+.decimal {
+  font-size: 50px;
+  background-color: rgb(153, 204, 255);
+  border: solid black 1px;
+}
+
+.equals {
+  font-size: 50px;
+  background-color: #ffcc99;
+  border: solid black 1px;
+}
+
+.clear {
+  font-size: 50px;
+  background-color: rgb(255, 92, 51);
+  border: solid black 1px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
